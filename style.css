@@ -7,6 +7,12 @@ body {
     color: orange;
 }
 
+/* for basic selectors, the ones at the bottom here have priority*/
+
 sub {
     color: purple;
+}
+
+.links {
+    color: darkgreen;
 }
