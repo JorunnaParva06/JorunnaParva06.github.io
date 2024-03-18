@@ -5,9 +5,18 @@ h1 {
 
 body {
     color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    /* first this will apply courier new font. if the user's computer does not have that font it will try courier, then monospace */
+    /* there are quotes around courier new because there is a space, you don't need quotes usually */
+    font-size: 1.5rem;
+    /* using rem units is more inclusive because it builds on top of user preferences, rather than overwriting them like pixels do */
+    font-weight: 400;
+    /* font weight is how bold your font is, higher values are more bold. usually 400 is regular boldness, 700 is bold, although it depends on the font */
+    font-style: normal;
+    /* font style is the style of your font, so things like italics for example */
 }
 
-/* for basic selectors, the ones at the bottom here have priority*/
+/* for basic selectors, the ones at the bottom here have priority */
 
 sub {
     color: purple;
