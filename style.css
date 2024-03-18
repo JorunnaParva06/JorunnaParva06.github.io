@@ -40,3 +40,9 @@ h1 {
 /* this stuff above makes all header1's red. */
 /* text-align aligns where the text is */
 /* text-decoration adds stuff to your text, like underlines, overlines and strikethroughs */
+
+.picture {
+    padding: 40px;
+    border: 20px;
+    margin: 60px;
+}
