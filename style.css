@@ -1,12 +1,3 @@
-h1 {
-    color: red;
-    text-align: center;
-    text-decoration: underline;
-}
-/* this stuff above makes all header1's red. */
-/* text-align aligns where the text is */
-/* text-decoration adds stuff to your text, like underlines, overlines and strikethroughs */
-
 body {
     color: orange;
     font-family: 'Courier New', Courier, monospace;
@@ -40,3 +31,12 @@ h2 {
     text-transform: capitalize;
     /* transform can transform your text, for example making everything uppercase or lowercase */
 }
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+/* this stuff above makes all header1's red. */
+/* text-align aligns where the text is */
+/* text-decoration adds stuff to your text, like underlines, overlines and strikethroughs */
