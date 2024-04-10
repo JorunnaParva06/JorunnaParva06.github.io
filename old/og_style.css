@@ -1,0 +1,48 @@
+body {
+    color: orange;
+    font-family: 'Courier New', Courier, monospace;
+    /* first this will apply courier new font. if the user's computer does not have that font it will try courier, then monospace */
+    /* there are quotes around courier new because there is a space, you don't need quotes usually */
+    font-size: 1.5rem;
+    /* using rem units is more inclusive because it builds on top of user preferences, rather than overwriting them like pixels do */
+    font-weight: 400;
+    /* font weight is how bold your font is, higher values are more bold. usually 400 is regular boldness, 700 is bold, although it depends on the font */
+    font-style: normal;
+    /* font style is the style of your font, so things like italics for example */
+    line-height: 1.55;
+    /* line height is the distance between lines, no units needed for the value. line height is the inputed value times font size */
+}
+
+/* for basic selectors, the ones at the bottom here have priority */
+
+sub {
+    color: purple;
+}
+
+.links {
+    color: darkgreen;
+}
+
+a {
+    font-style: unset;
+}
+
+h2 {
+    text-transform: capitalize;
+    /* transform can transform your text, for example making everything uppercase or lowercase */
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    text-decoration: underline;
+}
+/* this stuff above makes all header1's red. */
+/* text-align aligns where the text is */
+/* text-decoration adds stuff to your text, like underlines, overlines and strikethroughs */
+
+.picture {
+    padding: 40px;
+    border: 20px;
+    margin: 60px;
+}
